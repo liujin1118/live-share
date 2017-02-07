@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=750, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-touch-fullscreen" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no, email=no">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="MobileOptimized" content="320">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<meta name="x5-fullscreen" content="true">
+	<meta name="browsermode" content="application">
+	<meta name="x5-page-mode" content="app">
+	<meta name="msapplication-tap-highlight" content="no">
+	<meta name="copyright" content="www.grtstar.cn">
+	<meta name="revisit-after" content="1 days">
+	<meta name="keywords" content="全聚星直播">
+	<meta name="author" content="liuj,service@grtstar.com">
+	<meta name="description" content="全聚星明星艺人直播、才艺新星直播">
+	<title>直播分享页面-直播结束</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/layout.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/common.css" media="all">
+
+	<!-- 兼容配置 -->
+	<script type="text/javascript">
+		//移动端版本兼容
+		if(/Android (\d+\.\d+)/.test(navigator.userAgent)){
+			var version = parseFloat(RegExp.$1);
+			if(version>2.3){
+				var phoneScale = parseInt(window.screen.width) / 750;
+				document.write('<meta name="viewport" content="width=750, minimum-scale = '+ phoneScale +', maximum-scale = '+ phoneScale +', target-densitydpi=device-dpi">');
+			}else{
+				document.write('<meta name="viewport" content="width=750, target-densitydpi=device-dpi">');
+			}
+		}else{
+			document.write('<meta name="viewport" content="width=750, user-scalable=no, target-densitydpi=device-dpi">');
+		}
+	</script>
+</head>
+<body>
+	<div class="fdm-screen">
+		<div class="fdm-contain">
+			<div class="fdm-live-pause-container">
+				<div class="fdm-live-pause-bgimg"></div>
+				<div class="fdm-live-pause-back">
+					<video src="object/sgzh.mp4" controls width="100%" height="100%" poster="images/img2.jpg" autoplay id="videoPlay"></video>
+				</div> <!--fdm-live-pause-back end-->
+
+				<div class="fdm-live-ing-front-message">
+					<ul class="fdm-live-ing-front-message-ul">
+						<li class="fdm-live-ing-front-message-li01"><span>我就比比比比</span>被主播禁言</li>
+						<li class="fdm-live-ing-front-message-li01"><span>1000年美女</span>被场控踢出直播间</li>
+						<li class="fdm-live-ing-front-message-li02"><span>wuli大锤</span>小四月怎么没入镜</li>
+						<li class="fdm-live-ing-front-message-li03"><span>小马</span>进入了直播间</li>
+						<li class="fdm-live-ing-front-message-li04"><span>苏三</span>送出了24个掌声</li>
+						<li class="fdm-live-ing-front-message-li01"><span>张不二</span>关注了主播</li>
+					</ul>
+				</div> <!--fdm-live-ing-front-message end-->
+
+				<!--<div class="fdm-live-ing-front-interact">-->
+					<!--<a href="javascript:void(0);" class="fdm-live-ing-front-interact-btn">打开APP 与主播进行更多互动</a>-->
+				<!--</div> &lt;!&ndash;fdm-live-ing-front-interact end&ndash;&gt;-->
+
+				<!--遮罩层-->
+				<div class="fdm-live-layer">
+					<div class="fdm-live-end-box">
+						<div class="fdm-live-end-duration">
+							<div class="fdm-live-end-duration-head">
+								<img src="https://dummyimage.com/158x158&text=158x158" alt="头像" class="fdm-live-end-duration-head-img1"/>
+								<img src="images/flag.png" alt="" class="fdm-live-end-duration-head-img2"/>
+							</div>
+							<p class="fdm-live-end-duration-p">直播时长&nbsp;&nbsp;102分39秒</p>
+						</div> <!--直播时长 end-->
+						<div class="fdm-live-end-count">
+							<ul class="fdm-live-end-count-ul">
+								<li>
+									<p class="fdm-live-end-count-li-p01">173,252</p>
+									<p class="fdm-live-end-count-li-p02">收到掌声</p>
+								</li>
+								<li>
+									<p class="fdm-live-end-count-li-p01">946,750</p>
+									<p class="fdm-live-end-count-li-p02">获得点赞</p>
+								</li>
+								<li>
+									<p class="fdm-live-end-count-li-p01">173,252</p>
+									<p class="fdm-live-end-count-li-p02">在线人数</p>
+								</li>
+								<li>
+									<p class="fdm-live-end-count-li-p01">2729</p>
+									<p class="fdm-live-end-count-li-p02">新增粉丝</p>
+								</li>
+							</ul>
+						</div> <!--统计点赞数 end-->
+						<div class="fdm-live-end-count-return">
+							<a href="" class="fdm-live-end-count-return-btn">返回</a>
+						</div> <!--返回按钮 end-->
+					</div>
+					<div class="fdm-live-open-click">
+						<img src="images/img.png" alt="" class="fdm-img01"/>
+						<a href="javascript:void(0);" class="fdm-live-ing-front-interact-btn">打开APP 与主播进行更多互动</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jQuery.v1.11.1.min.js"></script>
+	<script>
+//		var a = document.getElementById("videoPlay");
+//		a.pause();
+		$(function(){
+//			$('#videoPlay').trigger('play');
+			$('#videoPlay').trigger('pause');
+		})
+	</script>
+</body>
+</html>

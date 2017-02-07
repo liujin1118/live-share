@@ -1,0 +1,543 @@
+@chartset "utf-8";
+/**
+* version:	 		    2016.00.01
+* creatTime: 	 		2016.11.18
+* updateTime: 			2016.11.18
+* author:				liuj
+* name:  				common
+**/
+html{
+    height:100%;
+}
+
+body{
+    position: relative;
+    height:100%;
+    color: #333;
+    font-family: "Microsoft Yahei";
+    background: #f5f5f5;
+}
+
+a{ -webkit-tap-highlight-color:rgba(255,0,0,0);}
+
+a:hover{
+    text-decoration: none;
+}
+
+.fdm-screen{
+    margin:0 auto;
+}
+
+.fdm-contain{
+    width:100%;
+}
+
+/*直播列表首页*/
+.fdm-live-list-container{
+    width:100%;
+
+}
+
+.fdm-live-list{
+    width:100%;
+    background: #fff;
+    margin-bottom: 12px;
+}
+/*标题*/
+.fdm-live-list-title{
+    padding:24px 30px;
+    overflow: hidden;
+}
+
+.fdm-live-list-title .fdm-live-list-title-p01{
+    display: inline-block;
+    width:310px;
+    height:35px;
+    line-height: 35px;
+    padding-top: 5px;
+    overflow: hidden;
+    font-size: 32px;
+    color: #000;
+}
+
+.fdm-live-list-title .fdm-live-list-title-p02{
+    display: inline-block;
+    width: 240px;
+    height:40px;
+    line-height: 40px;
+    font-size: 24px;
+    color: #999999;
+    overflow: hidden;
+}
+
+.fdm-live-list-title .fdm-live-list-title-p02 span{
+    float: right;
+    padding-left: 30px;
+    background: url("../images/location-icon.png") left center no-repeat;
+}
+
+/*视频*/
+.fdm-live-list-video{
+    position: relative;
+}
+
+.fdm-live-list-video .fdm-live-list-video-img{
+    display: block;
+    width:640px;
+    height:640px;
+}
+
+.fdm-live-list-video .fdm-live-list-video-img img{
+    width:100%;
+    height:100%;
+}
+
+
+/*签名 */
+.fdm-live-list-signature{
+    padding-left: 30px;
+}
+
+.fdm-live-list-signature .fdm-live-list-signature-text{
+    font: 24px/50px "Microsoft Yahei";
+    color: #333;
+}
+
+.fdm-live-list-signature .fdm-live-list-signature-text .fdm-live-list-signature-tit{
+    color: #ff554c;
+}
+
+/******************直播暂停页面 live-pause*******************/
+.fdm-live-pause-container{
+    position: relative;
+    width:100%;
+    height:1334px;
+}
+/*直播下滑*/
+.fdm-live-slide-container{
+    height: 1334px;
+}
+
+/*背景图片模糊处理*/
+.fdm-live-pause-bgimg{
+    /*position: absolute;*/
+    /*top:0;*/
+    /*width:640px;*/
+    /*height:1136px;*/
+    /*background: url("../images/img1.jpg") no-repeat;*/
+    /*background-size:100% 100%;*/
+    /*-webkit-filter: blur(5px); */
+    /*-moz-filter: blur(5px);*/
+    /*-ms-filter: blur(5px);*/
+    /*filter: blur(5px);*/
+}
+
+.fdm-live-pause-back{
+    position: relative;
+    width:100%;
+    height:100%;
+    /*background: url("../images/img1.jpg") no-repeat;*/
+    /*background-size:100% 100%;*/
+}
+
+
+
+.fdm-live-pause-prompt{
+    position: absolute;
+    top:50%;
+    left:31.25%;
+    margin-top: -69px;
+    height:138px;
+    text-align: center;
+}
+
+.fdm-live-pause-prompt-p01{
+    color: #ff554c;
+    font-size: 44px;
+}
+
+.fdm-live-pause-prompt-p02{
+    color: #fff;
+    font-size: 60px;
+}
+
+.fdm-live-pause-prompt-p03{
+    color: #fff;
+}
+
+
+/*****************直播中页面 live-ing*************/
+.fdm-live-ing-front{
+    background: none;
+}
+
+.fdm-live-ing-front-message{
+    position: absolute;
+    bottom:105px;
+    left:37px;
+    width:476px;
+    height:292px;
+    overflow: hidden;
+}
+
+.fdm-live-ing-front-message-ul{
+    /*width:476px;*/
+}
+
+.fdm-live-ing-front-message-ul li{
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 12px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+
+.fdm-live-ing-front-message-ul li.fdm-live-ing-front-message-li01{
+    color: #7B97FF;
+}
+
+.fdm-live-ing-front-message-ul li.fdm-live-ing-front-message-li02{
+    color: #ffffff;
+}
+
+.fdm-live-ing-front-message-ul li.fdm-live-ing-front-message-li03{
+    color: #90fec7;
+}
+
+.fdm-live-ing-front-message-ul li.fdm-live-ing-front-message-li04{
+    color: #ff554c;
+}
+
+.fdm-live-ing-front-message-ul li span{
+    color: #ffdf88;
+    margin-right: 18px;
+}
+
+
+/*****************打开APP与主播进行更多互动 live-ing******************/
+.fdm-live-ing-front-interact{
+    position: absolute;
+    right: 20px;
+    bottom: 40px;
+}
+
+/*右下角点这里按钮*/
+.fdm-live-ing-front-interact-btn{
+    display: inline-block;
+    width: 314px;
+    height: 60px;
+    text-align: center;
+    font-size: 0;
+    color: #FF554C;
+    background: url("../images/open-btn.png") no-repeat;
+}
+
+/*加载中*/
+.fdm-live-loading{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+}
+
+/*****************单击观看页面live-open*****************/
+.fdm-live-layer{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+}
+/*直播下滑遮罩*/
+.fdm-live-slide-layer{
+    height: 1334px;
+}
+
+.fdm-live-open-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -64px;
+    margin-top: -64px;
+    width: 140px;
+    height: 140px;
+}
+
+.fdm-live-open-box a{
+    width: 140px;
+    height: 140px;
+}
+
+.fdm-live-open-box a img{
+    width: 100%;
+}
+
+/*右下角点这里*/
+.fdm-live-open-click{
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+    width: 366px;
+    text-align: center;
+}
+
+.fdm-img01{
+    width: 315px;
+    height: 180px;
+    margin-bottom:5px;
+}
+
+/**************直播结束live-end**************/
+.fdm-live-end-box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -290px;
+    margin-top:-269px;
+    width: 580px;
+    height: 538px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+/*直播时长*/
+.fdm-live-end-duration{
+    width: 300px;
+    margin: -79px auto 0;
+}
+
+.fdm-live-end-duration-head{
+    position: relative;
+    width: 158px;
+    margin: 0 auto;
+}
+
+.fdm-live-end-duration-head img.fdm-live-end-duration-head-img1{
+    width: 158px;
+    height: 158px;
+    border-radius: 50%;
+}
+
+.fdm-live-end-duration-head img.fdm-live-end-duration-head-img2{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.fdm-live-end-duration-p{
+    font-size: 30px;
+    color: #000000;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+/*统计点赞数*/
+.fdm-live-end-count{
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.fdm-live-end-count-ul{
+    overflow: hidden;
+}
+
+.fdm-live-end-count-ul li{
+    float: left;
+    width: 158px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.fdm-live-end-count-ul li:nth-child(2n-1){
+    margin-right: 83px;
+}
+
+.fdm-live-end-count-ul li .fdm-live-end-count-li-p01{
+    font-size: 40px;
+    color: #666666;
+    margin-bottom: 7px;
+}
+
+.fdm-live-end-count-ul li .fdm-live-end-count-li-p02{
+    font-size: 28px;
+    color: #CCCCCC;
+}
+
+/*返回按钮*/
+.fdm-live-end-count-return{
+    width: 470px;
+    margin: 0 auto;
+}
+
+.fdm-live-end-count-return-btn{
+    display: inline-block;
+    width:468px;
+    height: 68px;
+    text-align: center;
+    font: 34px/68px "Microsoft Yahei";
+    color: #FF554C;
+    border: 2px solid #FF554C;
+    border-radius: 100px;
+}
+
+
+/***************直播下滑页面live-slide*************/
+.fdm-live-slide-box{
+
+}
+
+/*关注*/
+.fdm-live-slide-focus{
+    padding: 19px 30px 19px 20px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.fdm-live-slide-focus-left{
+    float: left;
+    overflow: hidden;
+}
+
+.fdm-live-slide-focus-left-head{
+    float: left;
+    margin-right: 20px;
+}
+
+.fdm-live-slide-focus-left-head img{
+    border-radius: 50%;
+}
+
+.fdm-live-slide-focus-left-wisdom{
+    float: left;
+    height:80px;
+    padding: 10px 0px;
+}
+
+.fdm-live-slide-focus-left-wisdom .fdm-live-slide-focus-left-wisdom-p01{
+    width: 300px;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font: 30px/40px "Microsoft Yahei";
+    color: #333333;
+}
+
+.fdm-live-slide-focus-left-wisdom .fdm-live-slide-focus-left-wisdom-p02{
+    width: 300px;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font: 28px/40px "Microsoft Yahei";
+    color: #999999;
+}
+
+.fdm-live-slide-focus-right{
+    float: right;
+    padding-top: 17px;
+}
+
+.fdm-live-slide-focus-right-btn{
+    display: inline-block;
+    width: 118px;
+    height: 58px;
+    padding-left: 30px;
+    font: 28px/58px "Microsoft Yahei";
+    color: #FF554C;
+    letter-spacing: -1.11px;
+    border: 2px solid #FF554C;
+    border-radius: 100px;
+}
+
+.fdm-live-slide-focus-right-btn img{
+    margin-right: 5px;
+}
+
+/*更多精彩直播*/
+.fdm-live-slide-live{
+    margin-top: 14px;
+    background: #ffffff;
+}
+
+/*更多精彩直播标题*/
+.fdm-live-slide-live-caption{
+    padding: 30px 30px 25px 30px;
+    overflow: hidden;
+}
+
+.fdm-live-slide-live-caption-p{
+    float: left;
+    font: 30px/39px "Microsoft Yahei";
+    color: #333333;
+    padding-left: 50px;
+    background: url("../images/tv.png") left -3px no-repeat;
+}
+
+.fdm-live-slide-live-caption-btn{
+    float: right;
+    font-size: 28px;
+    color: #666666;
+    padding-right: 25px;
+    background: url("../images/jt.png") right center no-repeat;
+}
+
+/*列表*/
+.fdm-live-slide-live-list{
+
+}
+
+.fdm-live-slide-live-list-ul{
+    overflow: hidden;
+}
+
+.fdm-live-slide-live-list-ul li{
+    position: relative;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.fdm-live-slide-live-list-ul li:nth-child(2n-1){
+    padding-right: 4px;
+}
+
+.fdm-live-slide-live-list-ul li:nth-child(2n){
+    padding-left: 4px;
+}
+
+.fdm-live-slide-live-list-ul li img{
+    width: 100%;
+}
+
+.fdm-live-slide-live-list-ul li .fdm-live-slide-live-list-ul-flag{
+    position: absolute;
+    top:14px;
+    left:0px;
+    width:auto;
+    height:50px;
+    font: 28px/50px "Microsoft Yahei";
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 45px;
+}
+
+.fdm-live-slide-live-list-ul li:nth-child(2n) .fdm-live-slide-live-list-ul-flag02{
+    margin-left: 4px;
+}
+
+.fdm-live-slide-live-list-ul li .fdm-live-slide-live-list-ul-flag01{
+    background: url("../images/flag-bg.png") right center no-repeat;
+}
+
+.fdm-live-slide-live-list-ul li .fdm-live-slide-live-list-ul-flag02{
+    background: url("../images/flag-bg-hf.png") right center no-repeat;
+}
+
+.fdm-live-slide-live-list-ul li .fdm-live-slide-live-list-ul-p{
+    width: 315px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font: 30px/65px "Microsoft Yahei";
+    color: #333;
+    padding-left: 20px;
+}
